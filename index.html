@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="public/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | IP Address Tracker</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <section class="header">
+    <h1>IP Address Tracker</h1>
+
+    <!-- IP/Domain Input -->
+      <form class="input-container" action="">
+        <input class="ip-input" type="text" placeholder="Search for any IP address or domain">
+        <button id="submit-button" type="submit" class="input-button">></button>
+      </form>
+
+    <!-- IP Details Section -->
+    <div class="details-section">
+      <article>
+        <p >IP ADDRESS</p>
+        <h3 id="ip-address"></h3>
+      </article>
+      <article>
+        <p>LOCATION</p>
+        <h3 id="location"></h3>
+      </article>
+      <article>
+        <p>TIMEZONE</p>
+        <h3 id="timezone"></h3>
+      </article>
+      <article>
+        <p>ISP</p>
+        <h3 id="isp"></h3>
+      </article>
+    </div>
+  </section>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a target="_blank" href="https://github.com/Ethansteip">Ethan Steip</a>.
+  </div>
+
+
+  <!-- Main Javascript -->
+  <script src="main.js"></script>
+</body>
+</html>
